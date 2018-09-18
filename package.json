@@ -1,0 +1,26 @@
+{
+	"name": "three-demo",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --hotOnly",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"three": "^0.96.0"
+	},
+	"devDependencies": {
+		"clean-webpack-plugin": "^0.1.19",
+		"css-loader": "^1.0.0",
+		"html-webpack-plugin": "^3.2.0",
+		"style-loader": "^0.23.0",
+		"webpack": "^4.19.1",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.8"
+	}
+}
